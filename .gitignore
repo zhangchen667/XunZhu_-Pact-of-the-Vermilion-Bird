@@ -1,18 +1,60 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Visual Studio / Rider / 通用 IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.ide
+*.sln.docstates
 
-# Other files and folders
-.settings/
+# 编译中间文件
+Intermediate/
+Binaries/
+DerivedDataCache/
+Saved/
+Build/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# 本地配置
+Saved/Config/
+Saved/Logs/
+Saved/Backup/
+Saved/Crashes/
+Saved/StagedBuilds/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# 插件本地缓存
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# 内容浏览器缩略图缓存
+Content/Collections/
+Content/DiffAssets/
+Content/Developers/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+
+# 自动化测试临时文件
+Automation/Temp/
+
+# 打包输出
+Releases/
+*.exe
+*.app
+*.dmg
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# 其他
+*.swp
+*.temp
+*.tmp
+*.log
+*.swo
+*.~c
+*.rej
+*.orig
