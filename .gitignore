@@ -1,60 +1,71 @@
-# Visual Studio / Rider / 通用 IDE
+# ==============================================================================
+# 《寻筑：朱雀之契》 - UE 5.1.1 标准协同时忽略配置
+# ==============================================================================
+
+# Visual Studio / Rider / 通用 IDE 配置
 .vs/
 .idea/
+.vscode/
 *.user
 *.suo
+*.sln
 *.sln.ide
 *.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
 
-# 编译中间文件
+# 编译中间文件与引擎缓存 
 Intermediate/
 Binaries/
 DerivedDataCache/
 Saved/
 Build/
 
-# 本地配置
-Saved/Config/
-Saved/Logs/
-Saved/Backup/
-Saved/Crashes/
-Saved/StagedBuilds/
-
 # 插件本地缓存
 Plugins/*/Intermediate/
 Plugins/*/Binaries/
 
-# 内容浏览器缩略图缓存
-Content/Collections/
-Content/DiffAssets/
+# 开发者本地独有内容 
 Content/Developers/
-Content/__ExternalActors__/
-Content/__ExternalObjects__/
+Content/Collections/
 
 # 自动化测试临时文件
 Automation/Temp/
 
-# 打包输出
+# 打包输出目录
 Releases/
+ArchivedBuilds/
+Packaged/
 *.exe
 *.app
 *.dmg
+*.apk
+*.ipa
 
-# macOS 系统文件
+# macOS 操作系统垃圾文件
 .DS_Store
+.DS_Store?
+._*
 .AppleDouble
 .LSOverride
+.Spotlight-V100
+.Trashes
 
-# Windows 系统文件
+# Windows 操作系统垃圾文件
 Thumbs.db
+ehthumbs.db
 desktop.ini
 
-# 其他
+# 日志、临时缓存与其他
 *.swp
 *.temp
 *.tmp
 *.log
+*.csv
 *.swo
 *.~c
 *.rej
 *.orig
+*.crash
